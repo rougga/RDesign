@@ -49,13 +49,13 @@
         <a class="js-scroll-trigger" href="#page-top">Accueil</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">A propos</a>
-      </li>
-      <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#services">Services</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">A propos</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#contact">Contacts</a>
@@ -80,13 +80,13 @@
     <div id="carouselExampleControls" class="carousel slide text-center my-auto w-100" data-ride="carousel">
       <div class="carousel-inner w-100">
         <div class="carousel-item active">
-          <img src="img/bg/low/bg-1.jpg" data-src="img/bg/bg-1.jpg" class="d-block w-100 vh-100 lazyload" alt="...">
+          <img src="img/bg/webp/low/bg-1.webp" data-src="img/bg/webp/bg-1.webp" class="d-block w-100 vh-100 lazyload" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="img/bg/low/bg-2.jpg" data-src="img/bg/bg-2.jpg"  class="d-block w-100 vh-100 lazyload" alt="...">
+          <img src="img/bg/webp/low/bg-2.webp" data-src="img/bg/webp/bg-2.webp"  class="d-block w-100 vh-100 lazyload" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="img/bg/low/bg-3.jpg" data-src="img/bg/bg-3.jpg"  class="d-block w-100 vh-100 lazyload" alt="...">
+          <img src="img/bg/webp/low/bg-3.webp" data-src="img/bg/webp/bg-3.webp"  class="d-block w-100 vh-100 lazyload" alt="...">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -202,7 +202,7 @@
                 <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
               </div>
             </div>
-            <img class="img-fluid lazyload w-100" src="img/portfolio/low/1.jpg" data-src="img/portfolio/1.jpg" alt="">
+            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/1.webp" data-src="img/portfolio/webp/1.webp" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -213,7 +213,7 @@
                 <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
               </div>
             </div>
-            <img class="img-fluid lazyload w-100" src="img/portfolio/low/2.jpg"  data-src="img/portfolio/2.jpg" alt="">
+            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/2.webp"  data-src="img/portfolio/webp/2.webp" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -224,7 +224,7 @@
                 <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
               </div>
             </div>
-            <img class="img-fluid lazyload w-100" src="img/portfolio/low/4.jpg" data-src="img/portfolio/4.jpg" alt="">
+            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/4.webp" data-src="img/portfolio/webp/4.webp" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -235,7 +235,7 @@
                 <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
               </div>
             </div>
-            <img class="img-fluid lazyload w-100" src="img/portfolio/low/3.jpg" data-src="img/portfolio/3.jpg" alt="">
+            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/3.webp" data-src="img/portfolio/webp/3.webp" alt="">
           </a>
         </div>
       </div>
@@ -302,7 +302,15 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
-
+  <script>
+    $(document).ready(function(){
+      $("header,section").click(function(){
+        if($(".menu-toggle").hasClass("active")){
+          $(".menu-toggle").click();
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
