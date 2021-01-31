@@ -23,6 +23,8 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/photoswipe.css">
+  <link rel="stylesheet" href="css/default-skin/default-skin.css">
   <script src="js/lib/lazysizes.min.js" async=""></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-48E8NRG4QX"></script>
   <script>
@@ -64,29 +66,20 @@
   </nav>
 
   <!-- Header -->
-  <!--
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">ROUGGA</h1>
-      <h3 class="mb-5">
-        <em>Tous les type de designe</em>
-      </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">DEMANDEZ VOTRE DEVIS</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
--->
   <header class="masthead d-flex p-0">
     <div id="carouselExampleControls" class="carousel slide text-center my-auto w-100" data-ride="carousel">
       <div class="carousel-inner w-100">
         <div class="carousel-item active">
-          <img src="img/bg/webp/low/bg-1.webp" data-src="img/bg/webp/bg-1.webp" class="d-block w-100 vh-100 lazyload" alt="...">
+          <img src="img/bg/webp/low/bg-8.webp" data-src="img/bg/webp/bg-8.webp" class="d-block w-100 vh-100 lazyload"
+            alt="...">
         </div>
         <div class="carousel-item">
-          <img src="img/bg/webp/low/bg-2.webp" data-src="img/bg/webp/bg-2.webp"  class="d-block w-100 vh-100 lazyload" alt="...">
+          <img src="img/bg/webp/low/bg-2.webp" data-src="img/bg/webp/bg-2.webp" class="d-block w-100 vh-100 lazyload"
+            alt="...">
         </div>
         <div class="carousel-item">
-          <img src="img/bg/webp/low/bg-3.webp" data-src="img/bg/webp/bg-3.webp"  class="d-block w-100 vh-100 lazyload" alt="...">
+          <img src="img/bg/webp/low/bg-3.webp" data-src="img/bg/webp/bg-3.webp" class="d-block w-100 vh-100 lazyload"
+            alt="...">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -102,9 +95,10 @@
       <div class="">
         <h1 class="mb-1 text-center">ROUGGA</h1>
         <h3 class="mb-5 text-center">
-          <em>Tous les type de designe</em>
+          <em>Tous les types de designe</em>
         </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger d-flex justify-content-center" href="#services">DEMANDEZ VOTRE DEVIS</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger d-flex justify-content-center" href="#services">DEMANDEZ
+          VOTRE DEVIS</a>
       </div>
     </div>
   </header>
@@ -159,33 +153,6 @@
     </div>
   </section>
 
-  <!-- About -->
-  <!--<section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-          <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our
-            friends at
-            <a href="https://unsplash.com/">Unsplash</a>!
-          </p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
-        </div>
-      </div>
-    </div>
-  </section>-->
-
-  <!-- Callout -->
-  <!--<section class="callout">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>your</em>
-        next website!
-      </h2>
-      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
-    </div>
-  </section>-->
-
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
     <div class="container">
@@ -195,47 +162,51 @@
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="#!" id="int">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Intérieur</div>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                <p class="mb-0">Salons, chambres, cuisines, salles de bains, salles à manger, dressings ...</p>
               </div>
             </div>
-            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/1.webp" data-src="img/portfolio/webp/1.webp" alt="">
+            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/1.webp"
+              data-src="img/portfolio/webp/1.webp" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="#!" id="ext">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Extérieur</div>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                <p class="mb-0">Facades, Piscine, Terrasse, Pergola ...</p>
               </div>
             </div>
-            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/2.webp"  data-src="img/portfolio/webp/2.webp" alt="">
+            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/2.webp"
+              data-src="img/portfolio/webp/2.webp" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="#!" id="aut">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Bars</div>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                <div class="h2">Autres</div>
+                <p class="mb-0">Bureaux, magasins, cafés, restaurants, spa, parapharmacie ...</p>
               </div>
             </div>
-            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/4.webp" data-src="img/portfolio/webp/4.webp" alt="">
+            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/5.webp"
+              data-src="img/portfolio/webp/5.webp" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="#!" id="p2d">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Dressing</div>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                <div class="h2">Plans 2D</div>
+                <p class="mb-0">Plans d'amenagement 2D, facades, vue de faces ...</p>
               </div>
             </div>
-            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/3.webp" data-src="img/portfolio/webp/3.webp" alt="">
+            <img class="img-fluid lazyload w-100" src="img/portfolio/webp/low/4.webp"
+              data-src="img/portfolio/webp/4.webp" alt="">
           </a>
         </div>
       </div>
@@ -252,15 +223,44 @@
   </section>
 
   <!-- Map -->
-  <div id="contact" class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.883528234147!2d-6.889861884734376!3d33.9698330295157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d797b6f855b%3A0xebfbfc094d4dfe0f!2sRougga%20Design!5e0!3m2!1sen!2sma!4v1611933692051!5m2!1sen!2sma"></iframe>
-    <br />
-    <small>
-      <a
-        href="https://g.page/rouggama?share"></a>
-    </small>
+  <div id="contact" class="map d-md-flex">
+    <iframe class="col-12 col-md-6"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.883528234147!2d-6.889861884734376!3d33.9698330295157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d797b6f855b%3A0xebfbfc094d4dfe0f!2sRougga%20Design!5e0!3m2!1sen!2sma!4v1611933692051!5m2!1sen!2sma">
+    </iframe>
+    <div class="col-12 col-md-6">
+      <form class="p-4 m-4">
+        <div class="form-group">
+          <label for="exampleInputPassword1">Nom :</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Addresse email :</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message :</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-xl">Envoyer</button>
+      </form>
+    </div>
   </div>
 
+  <!-- About -->
+  <!-- <section class="content-section bg-light bg-primary" id="about">
+    <div class="container text-center text-white">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+          <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our
+            friends at
+            <a href="https://unsplash.com/">Unsplash</a>!
+          </p>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+        </div>
+      </div>
+    </div>
+  </section>-->
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
@@ -293,19 +293,83 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
+  <script src="js/lib/photoswipe.min.js"></script>
+  <script src="js/lib/photoswipe-ui-default.min.js"></script>
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+  <script src="js/gallery.js"></script>
   <script>
-    $(document).ready(function(){
-      $("header,section,footer,iframe").click(function(){
-        if($(".menu-toggle").hasClass("active")){
+    $(document).ready(function () {
+      $("header,section,footer,iframe").click(function () {
+        if ($(".menu-toggle").hasClass("active")) {
           $(".menu-toggle").click();
         }
       });
