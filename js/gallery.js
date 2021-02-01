@@ -15,17 +15,57 @@ $(document).ready(function () {
     $("#int").click(function () {
         var items = [
             {
-                src: 'http://rougga.ma/img/bg/webp/bg-2.webp',
+                src: 'http://rougga.ma/img/gallery/int/g-1.webp',
                 w: 2600,
                 h: 1585
             },
             {
-                src: 'http://rougga.ma/img/bg/webp/bg-4.webp',
+                src: 'http://rougga.ma/img/gallery/int/g-2.webp',
                 w: 2000,
                 h: 1220
             },
             {
-                src: 'http://rougga.ma/img/bg/webp/bg-7.webp',
+                src: 'http://rougga.ma/img/gallery/int/g-3.webp',
+                w: 2000,
+                h: 1220
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/int/g-4.webp',
+                w: 2000,
+                h: 1220
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/int/g-5.webp',
+                w: 2000,
+                h: 1220
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/int/g-6.webp',
+                w: 2000,
+                h: 1220
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/int/g-7.webp',
+                w: 2000,
+                h: 1220
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/int/g-8.webp',
+                w: 2000,
+                h: 1220
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/int/g-9.webp',
+                w: 2000,
+                h: 1220
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/int/g-10.webp',
+                w: 2000,
+                h: 1220
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/int/g-11.webp',
                 w: 2000,
                 h: 1220
             }
@@ -36,7 +76,12 @@ $(document).ready(function () {
     $("#ext").click(function () {
         var items = [
             {
-                src: 'http://rougga.ma/img/bg/webp/bg-5.webp',
+                src: 'http://rougga.ma/img/gallery/ext/g-1.webp',
+                w: 2600,
+                h: 1711
+            },
+            {
+                src: 'http://rougga.ma/img/gallery/ext/g-2.webp',
                 w: 2600,
                 h: 1711
             }
@@ -47,7 +92,7 @@ $(document).ready(function () {
     $("#aut").click(function () {
         var items = [
             {
-                src: 'http://rougga.ma/img/bg/webp/bg-5.webp',
+                src: 'http://rougga.ma/img/gallery/aut/g-1.webp',
                 w: 2600,
                 h: 1711
             }
@@ -57,7 +102,7 @@ $(document).ready(function () {
     $("#p2d").click(function () {
         var items = [
             {
-                src: 'http://rougga.ma/img/bg/webp/bg-5.webp',
+                src: 'http://rougga.ma/img/gallery/p2d/g-1.webp',
                 w: 2600,
                 h: 1711
             }
