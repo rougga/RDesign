@@ -1,0 +1,29 @@
+@media (max-width:600px) {
+    .carousel-item img , .masthead , .buttonLogo,header{
+        height: auto;
+        min-height: auto;
+    }
+    .buttonLogo img{
+        width: 150px;
+    }
+    .buttonLogo h1{
+        font-size: 1em;
+        
+    }
+    .buttonLogo .btn,.buttonLogo .js-scroll-trigger{
+        visibility: hidden;
+    }
+    .content-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .devis-mobile{
+        visibility: visible;
+        height: auto;
+        margin: 1em;
+        padding: 1.25rem 2.5rem;
+    }
+    .devis-mobile:hover{
+        opacity: 0.7;
+    }
+}
