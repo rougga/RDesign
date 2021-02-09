@@ -35,11 +35,6 @@ let intItems = [
         h: 1524
     },
     {
-        src: 'http://rougga.ma/img/gallery/int/g-int-9.webp',
-        w: 2000,
-        h: 1500
-    },
-    {
         src: 'http://rougga.ma/img/gallery/int/g-int-10.webp',
         w: 1600,
         h: 976

@@ -16,12 +16,12 @@ $(document).ready(function () {
         }
     });
 
-    if(window.innerHeight>window.innerWidth){
+    /*if(window.innerHeight>window.innerWidth){
         let arr = $(".bg") ;
         for ( let i=0;i<arr.length;i++ ) {
             $(arr[i]).attr("data-src" ,"img/bg/webp/tele/bg-8.webp");
         }
-    }
+    }*/
 
     $("#int").click(function () {
         openPS(intItems);
