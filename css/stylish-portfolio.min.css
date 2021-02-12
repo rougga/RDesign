@@ -192,21 +192,6 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
 }
 
-.callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-callout.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem
-}
-
 .portfolio-item {
   display: block;
   position: relative;
@@ -359,6 +344,10 @@ a:active, a:focus, a:hover {
   background-color: #1b50fb;
 }
 
+.btn-costume:hover,
+.btn-costume:focus{
+  background-color: #3463fa;
+}
 .scroll-to-down {
   width: 50px;
   height: 50px;
@@ -398,6 +387,10 @@ a:active, a:focus, a:hover {
 .devis-mobile {
   visibility: hidden;
   height: 0;
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+.g-1{
+  display: grid;
+  grid-template-columns: 1fr 40em 1fr;
 }
